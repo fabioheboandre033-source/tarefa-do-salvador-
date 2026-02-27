@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    background-color: blue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+ font-size: 100px;
+ background-color: white;
+ text-align: center;
+ color: black;
+}
+.dese{
+ font-size: 100px;
+ background-color: white;
+ text-align: center;
+ color: black;
+ 
+}

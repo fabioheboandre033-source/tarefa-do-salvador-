@@ -1,0 +1,46 @@
+div{
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+}
+.pr{
+    background-color: rgb(30, 134, 134);
+}
+.seg{
+    background-color: red;
+}
+.ter{
+    background-color: rgb(121, 121, 207);
+}
+.qua{
+    background-color: blueviolet;
+}
+.qui{
+    background-color: orange;
+}
+.sex{
+    background-color: green;
+}
+.set{
+    background-color: black;
+}
+.oit{
+    background-color: pink;
+}
+.nono{
+    background-color: aquamarine;
+}
+.dec{
+    background-color: coral;
+}
+.dec-pr{
+    background-color: black;
+}
+.separa{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10px;
+    padding: 15px;
+}

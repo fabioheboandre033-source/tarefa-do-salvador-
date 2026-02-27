@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/sousa.css">
+</head>
+<body>
+<h1>introdução </h1>
+<p>A sintaxe do CSS é a forma como escrevemos as regras para estilizar os elementos de uma página web. Ela é composta por seletor, propriedade e valor. O seletor indica qual elemento HTML será estilizado, a propriedade define o que será alterado (como cor, tamanho ou fonte) e o valor determina como essa alteração será aplicada. <span class="sublinhar">Tudo isso é escrito dentro de chaves { }</span> , seguindo um padrão simples e organizado.</p>
+<p>
+A base do CSS está em separar o conteúdo do estilo. Enquanto o HTML é responsável pela estrutura da página, o CSS cuida da aparência visual. Essa separação torna o código mais limpo, fácil de manter e permite reutilizar estilos em várias páginas ao mesmo tempo. Com isso, pequenas mudanças no CSS podem alterar toda a aparência do site sem modificar o HTML.</p>
+<p>
+Além disso, o CSS funciona com um sistema de cascata, onde várias regras podem ser aplicadas ao mesmo elemento. Quando isso acontece, o navegador decide qual regra usar com base na prioridade, especificidade e ordem do código. Essa base é essencial para entender como os estilos são aplicados corretamente e evitar conflitos no design da página </p>  
+<h2>selector simples</h2>
+<p>Os seletores simples em CSS são usados para selecionar elementos HTML de forma básica e direta. Eles permitem aplicar estilos sem muita complexidade, sendo ideais para quem está a começar a aprender CSS. Com esses seletores, conseguimos alterar cores, tamanhos, fontes e outros estilos visuais dos elementos da página.
+O seletor de elemento é o mais simples de todos. Ele seleciona todos os elementos HTML de um mesmo tipo. Por exemplo, ao usar <span class="vermelho">p { color: blue; }</span>, todos os parágrafos da página passarão a ter a cor azul. Esse seletor é muito utilizado para estilos gerais. </p>
+<p>O seletor de classe é representado por um ponto (.) antes do nome. Ele seleciona todos os elementos que possuem uma determinada classe. Por exemplo,<span class="vermelho"> .titulo { font-size: 20px; }</span> aplica o estilo a todos os elementos com a classe “titulo”. É bastante usado por permitir reutilização.</p>
+<p>O seletor de id é identificado pelo símbolo # e serve para selecionar um único elemento. Cada id deve ser único dentro da página. Um exemplo é <span class="vermelho">#menu { background-color: gray; }</span>. Esse seletor é mais específico e tem maior prioridade.</p>
+<p>O seletor universal é representado pelo asterisco (*). Ele seleciona todos os elementos da página. Pode ser usado para aplicar estilos globais, como remover margens e espaçamentos padrão, mas deve ser usado com cuidado para não afetar o desempenho.</p>
+<p>O seletor de atributo permite selecionar elementos com base em um atributo específico. Por exemplo, <span class="vermelho">input[type="text"]</span> seleciona apenas os campos de texto. Esse seletor é útil para formulários e estilizações mais precisas.
+O seletor de grupo é usado para aplicar o mesmo estilo a vários seletores ao mesmo tempo. Ele é feito separando os seletores por vírgula, como em <span class="vermelho">h1, h2, h3 { color: red; }</span>. Isso evita repetição de código.
+O seletor de descendente seleciona elementos que estão dentro de outros elementos. Por exemplo, div p seleciona todos os parágrafos que estão dentro de uma div. Esse seletor ajuda a criar estilos mais organizados.
+O seletor de filho direto é representado pelo sinal > e seleciona apenas os elementos que são filhos diretos de outro. Um exemplo é ul > li, que seleciona apenas os itens de lista diretamente dentro da lista.
+Por fim, os seletores simples são a base para estilos mais avançados em CSS. Compreendê-los bem é essencial para criar páginas organizadas, visuais atraentes e com código limpo. Eles facilitam o controlo do design e tornam o desenvolvimento web mais eficiente</p>
+<h2> Elemento class e id </h2>
+<p>
+    elementos em CSS referem-se diretamente às tags HTML, como p, h1, div, section, entre outras. Quando utilizamos um seletor de elemento, estamos a aplicar um estilo a todos os elementos daquele tipo existentes na página. Por exemplo, ao definir um estilo para o elemento p, todos os parágrafos do documento HTML serão afetados. Esse tipo de seletor é simples e muito usado para definições gerais de layout e aparência.</p>
+ <p>A class é um seletor mais flexível e reutilizável no CSS. Ela é definida no HTML com o atributo <span class="sublinhar">class e no CSS é representada por um ponto (.)</span>. A grande vantagem da class é que pode ser aplicada a vários elementos diferentes ao mesmo tempo, permitindo padronizar estilos em partes específicas do site. Por exemplo, uma class pode ser usada para estilizar vários botões ou títulos de forma consistente.</p>
+<p>O id é um seletor utilizado para identificar um único elemento dentro da página. <span class="sublinhar">No HTML, ele é definido com o atributo id, e no CSS é representado pelo símbolo #.</span> Diferente da class, o id não deve ser repetido no mesmo documento. Ele é muito usado quando se deseja aplicar um estilo específico ou manipular um elemento individualmente, como menus, cabeçalhos ou seções principais.</p>
+<p><span class="sublinhar">Uma diferença importante entre class e id está na prioridade e no uso.</span> O id possui maior especificidade, ou seja, quando há conflito de estilos, o id tem prioridade sobre a class e o elemento. Por isso, recomenda-se usar id apenas quando realmente for necessário identificar um único elemento, enquanto a class deve ser usada para estilizações gerais e reutilizáveis.</p>
+<p class="fim">Em conclusão, os elementos, class e id são fundamentais para a construção e estilização de páginas web com CSS. Compreender o uso correto de cada um contribui para um código mais organizado, limpo e fácil de manter. Esses conceitos formam a base do desenvolvimento web e são essenciais para qualquer estudante ou profissional da área de informática.
+</p>
+</body>
+</html>

@@ -1,0 +1,18 @@
+ol{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 30px
+}
+li a{
+    background-color: darkblue;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+li a :hover{
+   border-bottom: 2px solid;
+}

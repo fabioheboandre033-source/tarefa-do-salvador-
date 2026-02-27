@@ -1,0 +1,30 @@
+body{
+  padding: 0;
+    margin: 0;
+    background-color: blue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+ font-size: 100px;
+ background-color: white;
+ text-align: center;
+ color: black;
+}
+h2{
+  color: black;
+  background-color: whitesmoke;
+  text-align: center;
+}
+.sublinhar{
+  text-decoration: underline;
+  color: aqua;
+}
+.vermelho{
+  color:red;
+}
+.fim{
+  background-color: burlywood;
+  color: black;
+  padding: 20px;
+}

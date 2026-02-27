@@ -1,0 +1,112 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.conjunto{
+    display: grid;
+   grid-template-columns: repeat(2, 4fr);
+   gap: 10px;
+   background-color: #ccc;
+
+}
+/* tarefa 3*/
+.tarefa-3{
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 10px;
+}
+.tarefa-3  div{
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+}
+h1{
+    text-align: center;
+}
+.pr{
+    background-color: rgb(30, 134, 134);
+}
+.seg{
+    background-color: grey;
+}
+.ter{
+    background-color:green
+}
+.qua{
+    background-color: pink;
+}
+.qui{
+    background-color: orange;
+}
+.sex{
+    background-color: green;
+}
+.set{
+    background-color:blue;
+}
+.oit{
+    background-color: pink;
+}
+.nono{
+    background-color: aquamarine;
+}
+.dec{
+    background-color: coral;
+}
+.dec-pr{
+    background-color: black;
+}
+.separa{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10px;
+    padding: 15px;
+}
+/* tarefa 1*/
+.tarefa-1{
+    border-radius: 10px;
+    background-color: burlywood;
+}
+.tarefa-1 h1{
+ font-size: 100px;
+ background-color: white;
+ text-align: center;
+ color: black;
+}
+.dese{
+ font-size: 100px;
+ background-color: white;
+ text-align: center;
+ color: black;
+ 
+}
+/* Tarefa 2*/
+.tarefa-2{
+    border-radius: 10px;
+    background-color: saddlebrown;
+}
+.tarefa-2 h1{
+ font-size: 100px;
+ background-color: white;
+ text-align: center;
+ color: black;
+}
+h2{
+  color: black;
+  background-color: whitesmoke;
+  text-align: center;
+}
+.sublinhar{
+  text-decoration: underline;
+  color: aqua;
+}
+.vermelho{
+  color:red;
+}
+.fim{
+  background-color: burlywood;
+  color: black;
+  padding: 20px;
+}
